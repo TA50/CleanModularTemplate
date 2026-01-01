@@ -12,7 +12,7 @@
 	"shortName": "clean-modular",
 	"tags": {
 		"language": "C#",
-		"type": "solution"
+		"type": "project"
 	},
 	"sourceName": "CleanModularTemplate",
 	"preferNameDirectory": true,
