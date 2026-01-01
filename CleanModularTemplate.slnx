@@ -1,0 +1,24 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src\CleanModularTemplate.AspireHost\CleanModularTemplate.AspireHost.csproj" />
+    <Project Path="src\CleanModularTemplate.DatabaseInitializer\CleanModularTemplate.DatabaseInitializer.csproj" />
+    <Project Path="src\CleanModularTemplate.Host\CleanModularTemplate.Host.csproj" />
+    <Project Path="src\CleanModularTemplate.ServiceDefaults\CleanModularTemplate.ServiceDefaults.csproj" />
+  </Folder>
+  <Folder Name="/src/Accounts/">
+    <Project Path="src\Accounts\CleanModularTemplate.Accounts.Api\CleanModularTemplate.Accounts.Api.csproj" />
+    <Project Path="src\Accounts\CleanModularTemplate.Accounts.Domain\CleanModularTemplate.Accounts.Domain.csproj" />
+    <Project Path="src\Accounts\CleanModularTemplate.Accounts.Infrastructure\CleanModularTemplate.Accounts.Infrastructure.csproj" />
+    <Project Path="src\Accounts\CleanModularTemplate.Accounts.UseCases\CleanModularTemplate.Accounts.UseCases.csproj" />
+  </Folder>
+  <Folder Name="/src/IAM/">
+    <Project Path="src\IAM\CleanModularTemplate.IAM.Api\CleanModularTemplate.IAM.Api.csproj" />
+    <Project Path="src\IAM\CleanModularTemplate.IAM.Contracts\CleanModularTemplate.IAM.Contracts.csproj" />
+  </Folder>
+  <Folder Name="/src/Shared/">
+    <Project Path="src\Shared\CleanModularTemplate.Shared.Api\CleanModularTemplate.Shared.Api.csproj" />
+    <Project Path="src\Shared\CleanModularTemplate.Shared.Domain\CleanModularTemplate.Shared.Domain.csproj" />
+    <Project Path="src\Shared\CleanModularTemplate.Shared.Infrastructure\CleanModularTemplate.Shared.Infrastructure.csproj" />
+    <Project Path="src\Shared\CleanModularTemplate.Shared\CleanModularTemplate.Shared.csproj" />
+  </Folder>
+</Solution>

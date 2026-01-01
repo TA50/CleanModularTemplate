@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Shared\CleanModularTemplate.Shared.Domain\CleanModularTemplate.Shared.Domain.csproj" />
+      <ProjectReference Include="..\..\Shared\CleanModularTemplate.Shared\CleanModularTemplate.Shared.csproj" />
+      <ProjectReference Include="..\CleanModularTemplate.Accounts.Domain\CleanModularTemplate.Accounts.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+        <HintPath>..\..\..\..\..\..\..\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\10.0.1\lib\net10.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="OpenTelemetry.Extensions.Hosting" />
+    </ItemGroup>
+
+</Project>

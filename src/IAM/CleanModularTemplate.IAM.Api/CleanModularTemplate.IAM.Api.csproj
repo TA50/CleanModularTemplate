@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Reference Include="Microsoft.Extensions.Hosting.Abstractions">
+            <HintPath>..\..\..\..\..\..\..\.dotnet\shared\Microsoft.AspNetCore.App\10.0.1\Microsoft.Extensions.Hosting.Abstractions.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Aspire.Npgsql.EntityFrameworkCore.PostgreSQL" />
+        <PackageReference Include="FastEndpoints"/>
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
+        <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\Shared\CleanModularTemplate.Shared.Api\CleanModularTemplate.Shared.Api.csproj" />
+        <ProjectReference Include="..\..\Shared\CleanModularTemplate.Shared.Infrastructure\CleanModularTemplate.Shared.Infrastructure.csproj" />
+        <ProjectReference Include="..\..\Shared\CleanModularTemplate.Shared\CleanModularTemplate.Shared.csproj"/>
+        <ProjectReference Include="..\CleanModularTemplate.IAM.Contracts\CleanModularTemplate.IAM.Contracts.csproj" />
+    </ItemGroup>
+</Project>
