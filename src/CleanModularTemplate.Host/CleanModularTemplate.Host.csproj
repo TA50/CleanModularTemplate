@@ -23,6 +23,7 @@
         <ProjectReference Include="..\Accounts\CleanModularTemplate.Accounts.Api\CleanModularTemplate.Accounts.Api.csproj" />
         <ProjectReference Include="..\CleanModularTemplate.ServiceDefaults\CleanModularTemplate.ServiceDefaults.csproj" />
         <ProjectReference Include="..\IAM\CleanModularTemplate.IAM.Api\CleanModularTemplate.IAM.Api.csproj"/>
+        <ProjectReference Include="..\ModuleTemplate\CleanModularTemplate.ModuleTemplate.Api\CleanModularTemplate.ModuleTemplate.Api.csproj" />
         <ProjectReference Include="..\Shared\CleanModularTemplate.Shared.Infrastructure\CleanModularTemplate.Shared.Infrastructure.csproj"/>
     </ItemGroup>
 

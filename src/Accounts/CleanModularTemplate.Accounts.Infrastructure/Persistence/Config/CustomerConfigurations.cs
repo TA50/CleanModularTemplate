@@ -6,7 +6,7 @@ using CleanModularTemplate.Shared.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace CleanModularTemplate.Accounts.Infrastructure.Config;
+namespace CleanModularTemplate.Accounts.Infrastructure.Persistence.Config;
 
 public class CustomerConfigurations : IEntityTypeConfiguration<Customer>
 {

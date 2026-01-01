@@ -1,3 +1,4 @@
+using CleanModularTemplate.Accounts.Infrastructure.Persistence;
 using CleanModularTemplate.Accounts.UseCases;
 using CleanModularTemplate.Shared.Infrastructure;
 using Microsoft.EntityFrameworkCore;

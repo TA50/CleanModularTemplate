@@ -1,7 +1,7 @@
 using CleanModularTemplate.Accounts.Domain.Customers.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace CleanModularTemplate.Accounts.Infrastructure;
+namespace CleanModularTemplate.Accounts.Infrastructure.Persistence;
 
 internal sealed class AccountDbContext : DbContext
 {

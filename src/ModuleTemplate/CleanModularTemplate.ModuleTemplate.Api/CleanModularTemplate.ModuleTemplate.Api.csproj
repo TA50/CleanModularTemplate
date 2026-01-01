@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Shared\CleanModularTemplate.Shared.Api\CleanModularTemplate.Shared.Api.csproj" />
+      <ProjectReference Include="..\CleanModularTemplate.ModuleTemplate.Contracts\CleanModularTemplate.ModuleTemplate.Contracts.csproj" />
+      <ProjectReference Include="..\CleanModularTemplate.ModuleTemplate.Infrastructure\CleanModularTemplate.ModuleTemplate.Infrastructure.csproj" />
+      <ProjectReference Include="..\CleanModularTemplate.ModuleTemplate.UseCases\CleanModularTemplate.ModuleTemplate.UseCases.csproj" />
+    </ItemGroup>
+
+</Project>

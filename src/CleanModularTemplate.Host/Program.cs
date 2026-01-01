@@ -3,6 +3,8 @@ using System.Reflection;
 using CleanModularTemplate.Accounts.Api;
 using CleanModularTemplate.Host;
 using CleanModularTemplate.IAM.Api;
+using CleanModularTemplate.ModuleTemplate.Api;
+using CleanModularTemplate.ModuleTemplate.Infrastructure;
 using CleanModularTemplate.ServiceDefaults;
 using CleanModularTemplate.Shared.Infrastructure;
 using FastEndpoints;
@@ -21,7 +23,8 @@ builder.AddServiceDefaults();
 List<Assembly> assemblies = [];
 
 builder.AddIam(assemblies)
-	.AddAccounts(assemblies);
+	.AddAccounts(assemblies)
+	.AddModuleTemplate(assemblies);
 
 builder.AddSharedServices()
 	.AddMessaging(assemblies);

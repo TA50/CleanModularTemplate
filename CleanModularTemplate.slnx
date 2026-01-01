@@ -15,6 +15,13 @@
     <Project Path="src\IAM\CleanModularTemplate.IAM.Api\CleanModularTemplate.IAM.Api.csproj" />
     <Project Path="src\IAM\CleanModularTemplate.IAM.Contracts\CleanModularTemplate.IAM.Contracts.csproj" />
   </Folder>
+  <Folder Name="/src/ModuleTemplate/">
+    <Project Path="src/ModuleTemplate/CleanModularTemplate.ModuleTemplate.Api/CleanModularTemplate.ModuleTemplate.Api.csproj" />
+    <Project Path="src/ModuleTemplate/CleanModularTemplate.ModuleTemplate.Contracts/CleanModularTemplate.ModuleTemplate.Contracts.csproj" />
+    <Project Path="src/ModuleTemplate/CleanModularTemplate.ModuleTemplate.Domain/CleanModularTemplate.ModuleTemplate.Domain.csproj" />
+    <Project Path="src/ModuleTemplate/CleanModularTemplate.ModuleTemplate.Infrastructure/CleanModularTemplate.ModuleTemplate.Infrastructure.csproj" />
+    <Project Path="src/ModuleTemplate/CleanModularTemplate.ModuleTemplate.UseCases/CleanModularTemplate.ModuleTemplate.UseCases.csproj" />
+  </Folder>
   <Folder Name="/src/Shared/">
     <Project Path="src\Shared\CleanModularTemplate.Shared.Api\CleanModularTemplate.Shared.Api.csproj" />
     <Project Path="src\Shared\CleanModularTemplate.Shared.Domain\CleanModularTemplate.Shared.Domain.csproj" />
