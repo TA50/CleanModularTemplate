@@ -3,8 +3,9 @@
 	"author": "TA50 (Awad Osman)",
 	"classifications": ["Clean Modular Monolith"],
 	"name": "Clean Modular Monolith with Aspire",
-	"identity": "CleanModularTemplate",
+	"identity": "CleanModularTemplate.Solution",
 	"shortName": "clean-modular",
+	"groupIdentity": "clean-modular-group",
 	"tags": {
 		"language": "C#",
 		"type": "project"
@@ -20,12 +21,10 @@
 						"**/obj/**",
 						"**/.vs/**",
 						"**/ModuleTemplate/**",
-						"CleanModularTemplate.slnx"
 					]
 				},
 				{
 					"rename": {
-						"CleanModularTemplate.Template.slnx": "CleanModularTemplate.slnx",
 						"README.Template.md": "README.md"
 					}
 				}

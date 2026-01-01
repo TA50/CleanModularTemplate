@@ -21,7 +21,5 @@
     <Project Path="src\Shared\CleanModularTemplate.Shared.Infrastructure\CleanModularTemplate.Shared.Infrastructure.csproj" />
     <Project Path="src\Shared\CleanModularTemplate.Shared\CleanModularTemplate.Shared.csproj" />
   </Folder>
-  <Test>
-    Dummay text
-  </Test>
+
 </Solution>

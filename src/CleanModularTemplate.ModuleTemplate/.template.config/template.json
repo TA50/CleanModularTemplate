@@ -1,0 +1,43 @@
+{
+	"$schema": "http://json.schemastore.org/template",
+	"author": "TA50 (Awad Osman)",
+	"classifications": ["Clean Modular Monolith"],
+	"groupIdentity": "clean-modular",
+	"name": "Modular Monolith Module",
+	"identity": "CleanModularTemplate.Module",
+	"groupIdentity": "clean-modular-group",
+	"shortName": "clean-module",
+	"tags": {
+		"language": "C#",
+		"type": "project"
+	},
+	"sourceName": "CleanModularTemplate.ModuleTemplate",
+	"preferNameDirectory": false,
+	"sources": [
+		{
+			"modifiers": [
+				{
+					"exclude": ["**/bin/**", "**/obj/**"]
+				}
+			]
+		}
+	],
+	"symbols": {
+		"Solution": {
+			"type": "parameter",
+			"replaces": "CleanModularTemplate",
+			"type": "parameter",
+			"datatype": "string",
+			"isRequired": true,
+			"description": "The name of your main solution (e.g. MyRetailApp)."
+		},
+		"Module": {
+			"type": "parameter",
+			"replaces": "ModuleTemplate",
+			"type": "parameter",
+			"datatype": "string",
+			"isRequired": true,
+			"description": "The name of your Module itself not the Project Name (e.g. Orders)."
+		}
+	}
+}
