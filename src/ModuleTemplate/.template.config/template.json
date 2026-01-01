@@ -1,0 +1,25 @@
+{
+	"$schema": "http://json.schemastore.org/template",
+	"author": "TA50 (Awad Osman)",
+	"classifications": [ "Module", "Web", "Clean Architecture" ],
+	"name": "Modular Monolith Module",
+	"identity": "CleanModularTemplate.Module",
+	"shortName": "clean-module",
+	"tags": {
+		"language": "C#",
+		"type": "item"
+	},
+	"sourceName": "Catalog",
+	"preferNameDirectory": true,
+	"sources": [
+		{
+//			"source": "./src/ModuleTemplate",
+//			"target": "./",
+			"modifiers": [
+				{
+					"exclude": [ "**/bin/**", "**/obj/**" ]
+				}
+			]
+		}
+	]
+}
