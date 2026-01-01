@@ -9,12 +9,10 @@
 		"language": "C#",
 		"type": "item"
 	},
-	"sourceName": "Catalog",
+	"sourceName": "ModuleTemplate",
 	"preferNameDirectory": true,
 	"sources": [
 		{
-//			"source": "./src/ModuleTemplate",
-//			"target": "./",
 			"modifiers": [
 				{
 					"exclude": [ "**/bin/**", "**/obj/**" ]
