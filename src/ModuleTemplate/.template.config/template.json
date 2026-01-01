@@ -1,7 +1,7 @@
 {
 	"$schema": "http://json.schemastore.org/template",
 	"author": "TA50 (Awad Osman)",
-	"classifications": [ "Module", "Web", "Clean Architecture" ],
+	"classifications": ["Clean Modular Monolith"],
 	"name": "Modular Monolith Module",
 	"identity": "CleanModularTemplate.Module",
 	"shortName": "clean-module",
@@ -15,7 +15,7 @@
 		{
 			"modifiers": [
 				{
-					"exclude": [ "**/bin/**", "**/obj/**" ]
+					"exclude": ["**/bin/**", "**/obj/**"]
 				}
 			]
 		}

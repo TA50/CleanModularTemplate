@@ -1,12 +1,7 @@
 {
 	"$schema": "http://json.schemastore.org/template",
 	"author": "TA50 (Awad Osman)",
-	"classifications": [
-		"Solution",
-		"Web",
-		"Aspire",
-		"Clean Modular Monolith"
-	],
+	"classifications": ["Clean Modular Monolith"],
 	"name": "Clean Modular Monolith with Aspire",
 	"identity": "CleanModularTemplate",
 	"shortName": "clean-modular",
@@ -24,16 +19,18 @@
 						"**/bin/**",
 						"**/obj/**",
 						"**/.vs/**",
-						"**/.git/**",
-						"**/*.user"
+						"**/ModuleTemplate/**",
+						"CleanModularTemplate.slnx"
 					]
+				},
+				{
+					"rename": {
+						"CleanModularTemplate.Template.slnx": "CleanModularTemplate.slnx",
+						"README.Template.md": "README.md"
+					}
 				}
 			]
 		}
 	],
-	"symbols": {
-	},
-	"postActions": [
-	]
+	"symbols": {}
 }
-
